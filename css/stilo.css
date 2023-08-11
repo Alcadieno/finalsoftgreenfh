@@ -1,0 +1,56 @@
+#home{
+    background:#28a745 ;
+    color: white;
+
+}
+#caixa-solucoes{
+  padding: 60px 0;
+  border-bottom: 1px solid #28a745;
+  
+}
+.caixa{
+  padding: 60px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* brilho da lampa */
+.lamp {
+    display: inline-block;
+    position: relative;
+  }
+
+  .glow {
+    position: absolute;
+    top: -50px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    border-radius: 10px; /* Borda arredondada */
+    background: radial-gradient(rgba(255, 230, 139, 0.8) 20%, transparent 45%); /* Efeito de brilho */
+    animation: glowAnimation 0.8s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glowAnimation {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+
+  /* duracao da animação */
+  .animate__fadeIn {
+    animation-duration: 0.5s; /* Ajuste o valor para a duração desejada (em segundos) */
+  }
+  .animate__fadeIn {
+    animation-delay: 0.2s; /* Ajuste o valor para o atraso desejado (em segundos) */
+  }
+  
+
+  
+  
+  
+  
+
+  
